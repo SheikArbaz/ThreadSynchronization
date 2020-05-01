@@ -1,16 +1,23 @@
-// ConsoleApplication1.cpp : Defines the entry point for the console application.
-//
+/*
+At a time, try only one example
+How ?
+Uncomment 2 lines.
+1. Header file having the name of your interested example
+2. Method call to example written in the header file you uncommented in the above step.
+*/
 #include"stdafx.h"
 #include "ConsoleApplication1.h"
-//#include "WinMutexExample.h" //Uncomment for WindowsMutexExample
 //#include "StandardThreadMutexExample.h" // Uncomment for StdThreadExample
-#include "WinSemaphoreExample.h"
+//#include "WinMutexExample.h" //Uncomment for WindowsMutexExample
+//#include "WinSemaphoreExample.h"
+#include "WinEventExample.h"
 int main()
 {
 
-	//StdThreadExample();
-	//WindowsMutexExample();
-	WindowsSemaphoreExample();
+	//StdThreadExample(); // Uncomment for StdThreadExample
+	//WindowsMutexExample(); //Uncomment for WindowsMutexExample
+	//WindowsSemaphoreExample();
+	WindowsEventsExample();
 
 	system("PAUSE");
 	return 0;

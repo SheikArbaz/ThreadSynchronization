@@ -142,6 +142,7 @@
     <ClInclude Include="StandardThreadMutexExample.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="WinEventExample.h" />
     <ClInclude Include="WinMutexExample.h" />
     <ClInclude Include="WinSemaphoreExample.h" />
   </ItemGroup>

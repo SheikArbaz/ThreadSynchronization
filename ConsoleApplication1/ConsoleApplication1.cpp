@@ -7,15 +7,15 @@ Uncomment 2 lines.
 */
 #include"stdafx.h"
 #include "ConsoleApplication1.h"
-//#include "StandardThreadMutexExample.h" // Uncomment for StdThreadExample
-//#include "WinMutexExample.h" //Uncomment for WindowsMutexExample
+//#include "StandardThreadMutexExample.h" // i. Uncomment for StdThreadExample
+//#include "WinMutexExample.h" //ii. Uncomment for WindowsMutexExample
 //#include "WinSemaphoreExample.h"
 #include "WinEventExample.h"
 int main()
 {
 
-	//StdThreadExample(); // Uncomment for StdThreadExample
-	//WindowsMutexExample(); //Uncomment for WindowsMutexExample
+	//StdThreadExample(); // i. Uncomment for StdThreadExample
+	//WindowsMutexExample(); //ii. Uncomment for WindowsMutexExample
 	//WindowsSemaphoreExample();
 	WindowsEventsExample();
 
